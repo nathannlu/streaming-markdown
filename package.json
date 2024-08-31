@@ -1,0 +1,16 @@
+{
+  "name": "streaming-markdown-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc --watch",
+    "build": "npx tsc; npm run build:cp-public",
+    "build:cp-public": "cp ./public/** ./dist",
+    "type": "npx tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
